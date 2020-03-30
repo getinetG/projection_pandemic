@@ -14,3 +14,4 @@ $$\frac{dI}{dt} = bS(t)I(t) - kI(t)$$
 $$\frac{dR}{dt} = kI(t)$$
 Where b is the number of contact and k is the recovery time.
 The nonlinearity of the above equations makes it hard to find the explicity analytical solution.
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
