@@ -9,7 +9,7 @@ The underlying assumption is that a person who recovered from the disease develo
 https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology
 ## The governing differential equation
 The simple SIR model has the following system of nonlinear ordinary differential equations.
-$$\frac{dS}{dt} = -bS(t)I(t)$$
+$\frac{dS}{dt} = -bS(t)I(t)$
 $$\frac{dI}{dt} = bS(t)I(t) - kI(t)$$
 $$\frac{dR}{dt} = kI(t)$$
 Where b is the number of contact and k is the recovery time.
