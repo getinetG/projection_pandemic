@@ -15,12 +15,4 @@ $$\frac{dR}{dt} = kI(t)$$
 Where b is the number of contact and k is the recovery time.
 The nonlinearity of the above equations makes it hard to find the explicity analytical solution.
 
-latexImg = function(latex){
-
-    link = paste0('http://latex.codecogs.com/gif.latex?',
-           gsub('\\=','%3D',URLencode(latex)))
-
-    link = gsub("(%..)","\\U\\1",link,perl=TRUE)
-    return(paste0('![](',link,')'))
-}
-r latexImg('a = \\frac{b}{c}')
+$$$f(x) = x^2$
